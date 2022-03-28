@@ -1,0 +1,651 @@
+body{
+    position: relative;
+    background-color: rgb(233, 230, 230);
+}
+
+/* Header */
+.header{
+    background-color: rgb(1, 127, 255);
+    height: 80px;
+    display: flex;
+}
+.div_head{
+    min-width: 980px;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 100px;
+}
+.form-inline{
+    margin: 10px;
+}
+.input{
+    width: 350px;
+    height: 35px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: none;
+}
+.btn{
+    height: 35px;
+    width: 50px;
+    background: blue;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
+.signup {
+   display: inline-block;
+   margin-left: 30px;
+}
+.signup a{
+    display: block;
+	font-size: 17px;
+	color: white;
+}
+.signup button{
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(1, 127, 255);
+    color: white;
+    border: 2px white solid;
+    cursor: pointer;
+}
+.signup a i{
+    margin-right: 6px;
+}
+.cart{
+    display: inline-block;
+    margin-left: 30px;
+   
+}
+.cart a {
+    border: 2px solid;
+    padding: 10px;
+    color: white;
+}
+
+/* tbody */
+.tbody{
+    margin-top: 20px;
+}
+.div_body_head{
+    max-width: 980px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.danhMuc{
+    box-sizing: border-box;
+	display: inline-block;
+}
+.danhMuc a{
+    min-width: 172px;
+    height: 33px;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+	font-size: 17px;
+	color: white;
+    font-size: 15px;
+    text-align: center;
+    background: rgb(24, 103, 207);
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 33px;
+}
+.danhMuc_2 {
+    box-sizing: border-box;
+	display: inline-block;
+    margin-left: 5px;
+
+}
+.danhMuc_2  a{
+    min-width: 164px;
+    min-height: 33px;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+	font-size: 17px;
+	color: black;
+    font-size: 15px;
+    margin-left: 2px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 33px;
+}
+/* content */
+.content_mid{
+    display: flex;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 468px;
+    margin-top: 10px;
+    display: flex;
+}
+.conten_mid_first{
+    background: rgb(255, 253, 253);
+    height: 468px;
+    box-sizing: border-box;
+    font-size: 16px;
+    min-width: 172px;
+}
+.conten_mid_first li{
+    list-style-type: none;
+    min-width: 172px;
+    color: black;
+    line-height: 35px;
+    align-items: center;
+    padding: 5px;
+}
+.conten_mid_first a{
+    color: black;
+    font-size: 14px;
+}
+
+.conten_mid_second img{
+    box-sizing: border-box;
+    border-radius: 10px;
+    min-width:532px;
+    height: 312px; 
+    padding: 3px;
+}
+.conten_mid_second_child{
+    display: flex;
+    box-sizing: border-box;
+}
+.conten_mid_second_child img{
+    border-radius: 10px;
+    min-width: 266px;
+    height: 156px;
+    padding: 5px;
+}
+.conten_mid_thrid a img{
+    min-width: 266px;
+    width: 266px;
+    height: 156px;
+}
+
+/* under content mid */
+.content_under_mid{
+    max-width: 980px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    
+}
+.content_under_mid>a{
+    width: 307px;
+    height: 155px;
+}
+.content_under_mid img{
+    border-radius: 10px;
+}
+
+.content__big{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 734px;
+    margin-top: 40px;
+    margin-bottom: 1000px;
+}
+
+/* Sản phẩm nổi bật */
+.tittle__sp_nb{
+    margin-top: 40px;
+    font-weight: 700;
+}
+.content_sp_nb{
+    max-width: 980px;
+    min-width: 734px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.content_sanPhamnb1{
+    width: 233px;
+    height: 277px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 20px;
+}
+.content_sanPhamnb1:hover{
+    box-shadow: 0px 0px 4px 0px;
+    transition: 0.5s;
+}
+.content_sanPhamnb1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.content_sanPhamnb1 a img{
+   width: 233px;
+   height: 103px;
+   margin-bottom: 10px;
+}
+.content_sanPhamnb1 p{
+    cursor: text;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.content_sanPhamnb1 b{
+    cursor: text;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration-line: line-through;
+}
+.content_sanPhamnb1 b2{
+    cursor: text;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: #fd0909;
+    color: white;
+    border-radius: 5px;
+    min-width: 30px;
+    box-sizing: border-box;
+    padding: 1px;
+}
+.content_sanPhamnb1 i{
+    opacity: 0.5;
+    font-size: 15px;
+}
+.content_sanPhamnb1 i:hover{
+    color: yellow;
+}
+.content_sanPhamnb1 button{
+    min-width: 84px;
+    height: 25px;
+    border: 1px solid #21beff;
+    background-color: white;
+    color: #21beff;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.content_sanPhamnb1 button:hover{
+    background-color: #21beff;
+    color: white;
+}
+
+/* Sản phẩm bán chạy */
+.tittle__sp_bc{
+    margin-top: 40px;
+    font-weight: 700;
+}
+.content_sp_bc{
+    max-width: 980px;
+    min-width: 734px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.content_sanPhambc{
+    width: 233px;
+    height: 277px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 20px;
+}
+.content_sanPhambc:hover{
+    box-shadow: 0px 0px 4px 0px;
+    transition: 0.5s;
+}
+.content_sanPhambc a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.content_sanPhambc a img{
+   width: 233px;
+   height: 103px;
+   margin-bottom: 10px;
+}
+.content_sanPhambc p{
+    cursor: text;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.content_sanPhambc b{
+    cursor: text;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration-line: line-through;
+}
+.content_sanPhambc b2{
+    cursor: text;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: #fd0909;
+    color: white;
+    border-radius: 5px;
+    min-width: 30px;
+    box-sizing: border-box;
+    padding: 1px;
+}
+.content_sanPhambc i{
+    opacity: 0.5;
+    font-size: 15px;
+}
+.content_sanPhambc i:hover{
+    color: yellow;
+}
+.content_sanPhambc button{
+    min-width: 84px;
+    height: 25px;
+    border: 1px solid #21beff;
+    background-color: white;
+    color: #21beff;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.content_sanPhambc button:hover{
+    background-color: #21beff;
+    color: white;
+}
+
+/* Khám phá */
+.content_khampha{
+    max-width: 980px;
+    min-width: 413px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.content_khampha img{
+    width: 223px;
+    height: 300px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    background-color: #24262b;
+    justify-content: space-evenly;
+}
+.container__footer{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-col{
+    padding: 0 15px;
+    width: 25%;
+}
+.footer-col ul{
+    list-style: none;
+    padding: 30px 0;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.social__link a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.social__link a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+@keyframes fadeIn {
+    form {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes growth {
+    form{
+        transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+    }
+}
+/* Modal-Login */
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 0;
+    left: 0;
+    display: flex;
+    height: 100%;
+    animation: fadeIn linear 0.1s;
+
+}
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(233, 230, 230, 0.4);
+}
+.modal__body{
+    /* width: 800px;
+    height: 550px; */
+    --growth-from:0.7;
+    --growth-to:1;
+    background-color: #ffffff;
+    margin: auto;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    transform: growth linear 0.1s;
+}
+/* Form Modal */
+.auth-form{
+    width: 500px;
+}
+.auth-form__comtainer{
+    padding: 0 32px;
+}
+.auth-form__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 12px;
+}
+.auth-form__heading{
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+.auth-form__swith-btn{
+    min-width: 110px;
+    height: 40px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    color: #ee4d2d;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+}
+.auth-form__swith-btn:hover{
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0;
+    outline: none;
+    color: #ee4d2d;
+}
+.auth-form__form{
+    
+}
+.auth-form__input{
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    padding: 0 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+.auth-form__aside{
+    margin-top: 18px;
+    line-height: 8px;
+    
+}
+.auth-form__policy-text{
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+}
+.auth-form__text-link{
+    color: #333333;
+    text-decoration: none;
+}
+.auth-form__contols{
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-form__back{
+    min-width: 100px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-form__signup{
+    min-width: 100px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    background-color: #21beff;
+    color: #ffffff;
+    margin-left: 8px;
+}
+.btn-form__back:hover{
+    cursor: pointer;
+    background-color: rgb(209, 203, 203);
+}
+
+.btn-form__signup:hover{
+    cursor: pointer;
+    background-color: #00affa;
+}
+.auth-form__social{
+    background-color: whitesmoke;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+.auth-form-icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.btn-facebook{
+    min-width: 210px;
+    height: 33px;
+    border: 1px solid;
+    color: white;
+    background-color: #0d89f0;
+    align-items: center;
+    line-height: 33px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-google{
+    min-width: 210px;
+    height: 33px;
+    border: 1px solid;
+    color: white;
+    background-color: #ee4d2d;
+    align-items: center;
+    line-height: 33px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-facebook:hover{
+    background-color: #0068bd;
+}
+.btn-google:hover{
+    background-color: #cf2e0d;
+}
+.auth-form__help{
+    display: flex;
+    justify-content: flex-end;
+}
+.auth-form__help-link{
+    color: #ffffff;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 4px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.auth-form__help-link:hover{
+    background-color: rgb(158, 156, 156);
+}

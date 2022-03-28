@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD Games Shop</title>
+    <link rel="ICON" href="https://png.pngtree.com/template/20200511/ourmid/pngtree-dragon-logo-design-image_370996.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style2.css">
+    <link rel="stylesheet" href="./ICON/fontawesome-free-5.15.4-web/css/all.min.css">
+    <script src="./JS/main.js"></script>
+  </head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="div_head">
+      <div class="logo">
+        <a href="index.html"><img src="./IMG/logo2.gif" alt=""></a>
+      </div>
+      <div>
+        <form class="form-inline">
+          <input class="input" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit" ><i class="fa fa-search"></i></button>
+        </form>
+      </div>     
+      <div class="signup">
+        <a href="./SRC/login.html"><i class="fa fa-user"></i>Đăng nhập</a>
+      </div>
+      <div>
+        <div class="cart">
+          <a href="index.html"><i class="fas fa-shopping-cart"></i>Giỏ hàng</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Danh mục sản phẩm -->
+  <div class="tbody">
+    <div class="div_body_head"> 
+      <div class="danhMuc"> 
+        <a href="#"><i class="fa fa-bars"></i> Danh mục sản phẩm</a>
+      </div>
+      <div class="danhMuc_2">
+        <a href="#" ><i class="fas fa-gamepad"></i>Hướng dẫn mua hàng</a>
+        <a href="#" ><i class="far fa-handshake"></i>Liên hệ hợp tác</a>
+        <a href="#" ><i class="fas fa-id-card"></i>Hình thức thanh toán</a>
+        <a href="#" ><i class="fas fa-life-ring"></i>Hỗ trợ</a>    
+      </div>
+    </div>
+  </div>
+
+  <!-- Content Mid -->
+  <div class="content_mid">
+    <div class="conten_mid_first">
+        <ul>
+          <li><a href="https://divineshop.vn/steam?filter_price_from=0&filter_price_to=15000000&sort=op.quantity&order=DESC&limit=12"><i class="fab fa-steam"></i> Game trên Steam</a></li>
+          <li><a href=""><i class="fas fa-sun"></i> Game trên origin</a></li>
+          <li><a href=""><i class="fab fa-battle-net"></i> Game trên Battle.net</a></li>
+          <li><a href=""><i class="fas fa-trophy"></i> PUBG</a></li>
+          <li><a href=""><i class="far fa-credit-card"></i> Steam Wallet</a></li>
+          <li><a href=""><i class="fas fa-gamepad"></i> Tiện ích</a></li>
+          <li><a href=""><i class="fas fa-broadcast-tower"></i> Gói Data Mobile</a></li>
+          <li><a href=""><i class="fab fa-google-play"></i> Google Play, iTunes</a></li>
+          <li><a href=""><i class="fas fa-wallet"></i> Nintendo Eshop Card</a></li>
+          <li><a href=""><i class="fab fa-xbox"></i> Xbox Gift Card</a></li>
+        </ul>
+    </div>
+    <div class="conten_mid_second">
+      <div class="container">
+        <div class="image">
+          <img id="slider" onclick="changIMG()" src="./IMG/ImgMid/bigM.jpg">
+         <div class="button">
+          <i onclick="prev()" class="fas fa-angle-left"></i></button>
+           <i onclick="next()" class="fas fa-angle-right"></i></i> </button>
+         </div>
+        </div>
+        </div>
+        <div class="conten_mid_second_child"> 
+        <a href="./SRC/adobe-pts.html"><img src="./IMG/ImgMid/m1.png" alt="" ></a>
+        <a href="https://divineshop.vn/index.php?route=product/single_page_data_pack"><img src="./IMG/ImgMid/m4.png" alt="" ></a>
+        </div>
+    </div>
+    <div class="conten_mid_thrid">
+        <a href="https://divineshop.vn/index.php?route=product%2Fsearch&search=steam+wallet"><img src="./IMG/ImgMid/m3.png" alt="" ></a>
+        <a href="https://divineshop.vn/index.php?route=product/search&search=moiviec&filter_price_from=1&filter_price_to=9800000&limit=96"><img src="./IMG/ImgMid/m2.png" alt="" ></a>
+        <a href="https://divineshop.vn/index.php?route=product%2Fsearch&search=youtube"><img src="./IMG/ImgMid/m5.png" alt="" ></a>
+    </div>
+  </div>
+  <div class="content_under_mid">
+      <a href=""><img src="./IMG/underMid/uM1.PNG" alt=""></a>
+      <a href=""><img src="./IMG/underMid/uM2.PNG" alt=""></a>
+      <a href=""><img src="./IMG/underMid/uM3.PNG" alt=""></a>
+  </div>
+
+  <!-- Show Sản Phẩm -->
+  <div class="content__big">
+    <!-- Sản phẩm nổi bật -->
+    <div>
+      <h4 class="tittle__sp_nb">Sản phẩm nổi bật</h4>
+    </div>
+    <div class="content_sp_nb"> 
+      <div class="content_sanPhamnb1">
+        <a href="./SRC/netflix.html">
+          <img src="./IMG/ImgSPnb/netllix.png" alt="">
+          Tài khoản Netflix Premium for 1 User (1 Tháng)
+          <p>79,000đ <b>260,000đ </b><b2> -70%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhamnb1">
+        <a href="./SRC/PUBG.html">
+          <img src="./IMG/ImgSPnb/pubg.jpg" alt="">
+          PlayerUnknown's Battlegrounds PUBG CDKEY
+          <p>299,000đ <b>340,000đ </b><b2> -12%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhamnb1">
+        <a href="./SRC/discord.html">
+          <img src="./IMG/ImgSPnb/discord.png" alt="">
+          Discord Nitro 3 tháng (Đăng kí lần đầu)
+          <p>190,000đ <b>690,000đ </b><b2> -72%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhamnb1">
+        <a href="./SRC/sptyfy.html">
+          <img src="./IMG/ImgSPnb/Spotify.png" alt="">
+          Tài khoản nghe nhạc Spotify Premium (4 tháng)
+          <p>69,000đ <b>236,000đ </b><b2> -71%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhamnb1">
+        <a href="./SRC/adobe-pts.html">
+          <img src="./IMG/ImgSPnb/PsLs.png" alt="">
+          Tài khoản Adobe Photography (3 tháng)
+          <p>169,000đ <b>1,200,000đ </b><b2> -86%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhamnb1">
+        <a href="./SRC/primer.html">
+          <img src="./IMG/ImgSPnb/Prime Gaming.png" alt="">
+          Tài khoản Amazon Prime Gaming (1 tháng)
+          <p>40,000đ <b>550,000đ </b><b2> -93%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhamnb1">
+        <a href="./SRC/crysis.html">
+          <img src="./IMG/ImgSPnb/crysis.jpeg" alt="">
+          Crysis Remastered Trilory (Epic Games)
+          <p>69,000đ <b>466,000đ </b><b2> -85%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhamnb1">
+        <a href="./SRC/genshin.html">
+          <img src="./IMG/ImgSPnb/code.png" alt="">
+          Code Genshin Impact Prime Gaming Bundle
+          <p>69,000đ <b>466,000đ </b><b2> -85%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+    </div>
+
+  <!-- Sản phẩm bán chạy -->
+    <div>
+      <h4 class="tittle__sp_bc">Sản phẩm bán chạy</h4>
+    </div>
+    <div class="content_sp_bc"> 
+      <div class="content_sanPhambc">
+        <a href="./SRC/Agrou.html">
+          <img src="./IMG/ImgSPbc/agrou.jpg" alt="">
+          Agrou
+          <p>69,000đ <b> 100,000</b><b2> -31%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhambc">
+        <a href="./SRC/Among.html">
+          <img src="./IMG/ImgSPbc/amongus.jpeg" alt="">
+          Among Us
+          <p>69,300đ <b> 90,000</b><b2> -23%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhambc">
+        <a href="./SRC/GTA.html">
+          <img src="./IMG/ImgSPbc/gtaV.jpg" alt="">
+          Grand Theft Auto V - GTA V
+          <p>458,150đ <b> 935,000đ </b><b2> -51%</b2></p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhambc">
+        <a href="./SRC/SteamCode100TWD.html">
+          <img src="./IMG/ImgSPbc/STEAM 100 TWD.png" alt="">
+          Steam Wallet Code 100 TWD (~81.937 VNĐ) 
+          <p>93,000đ </p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhambc">
+        <a href="./SRC/SteamRandomCodehtml.html">
+          <img src="./IMG/ImgSPbc/Random Code Steam.png" alt="">
+          Random Code Steam
+          <p>10,000đ </p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhambc">
+        <a href="./SRC/SteamCode200ARS.html">
+          <img src="./IMG/ImgSPbc/STEAM 200 ARS.png" alt="">
+          Steam Wallet Code 200 ARS (~44.994 VNĐ)
+          <p>64,000đ </p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhambc">
+        <a href="./SRC/SteamCode40HKD.html">
+          <img src="./IMG/ImgSPbc/STEAM 40 HKD.png" alt="">
+          Steam Wallet Code 40 HKD (~116.710 VNĐ)
+          <p>128,000đ </p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>
+      <div class="content_sanPhambc">
+        <a href="./SRC/SteamCode80HKD.html">
+          <img src="./IMG/ImgSPbc/STEAM 80 HKD.png" alt="">
+          Steam Wallet Code 80 HKD (~233.420 VNĐ) 
+          <p>256,000đ </p>
+          <i class="fas fa-shopping-cart"></i ><br>
+          <button>Mua ngay</button>
+        </a>
+      </div>    
+    </div>
+
+    <!-- Khám phá -->
+    <div>
+      <h4 class="tittle__sp_bc">Khám phá</h4>
+    </div>
+    <div class="content_khampha"> 
+      <img src="./IMG/ImgKP/gamehot.PNG" alt="">
+      <img src="./IMG/ImgKP/khampha.PNG" alt="">
+      <img src="./IMG/ImgKP/codewaller.PNG" alt="">
+      <img src="./IMG/ImgKP/thecao.PNG" alt="">
+    </div>
+  </div>
+
+  
+    <div style="clear: inherit;"></div>
+    <!-- Footer -->
+   <footer class="footer">
+        <div class="container__footer">
+          <div class="row">
+            <div class="footer-col">
+              <h4>HDGAME SHOP</h4>
+              <ul>
+                <li><a href="">Game bản quyền là gì ?</a></li>
+                <li><a href="">Giới thiệu Divine Shop</a></li>
+                <li><a href="">Điều khoản dịch vụ</a></li>
+                <li><a href="">Chính sách bảo mật</a></li>
+                <li><a href="">Donate nhân viên CSKH</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer-col">
+              <h4>LIÊN HỆ</h4>
+              <ul>
+                <li><a href="">Địa chỉ giao dịch trực tiếp</a></li>
+                <li><a href="">Hotline: 096 4567 247 (8:00 - 24:00)</a></li>
+                <li><a href="">Email: hotro@divineshop.vn</a></li>
+                <li><a href="">Chế độ bảo hành</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer-col">
+              <h4>FOLLOW US</h4>
+              <div class="social__link">
+                <a href=""><i class="fab fa-facebook-f"></i></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></i></a>
+                <a href=""><i class="fab fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+   </footer>
+
+      <!-- Modal-Login -->
+      <!-- <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body"> -->
+
+        <!--Đăng ký Form -->
+        <!-- <div class="auth-form">
+          <div class="auth-form__comtainer">
+            <div class="auth-form__header">
+              <h4 class="auth-form__heading">Đăng ký</h4>
+              <span class="auth-form__swith-btn">Đăng nhập</span>
+            </div>
+
+            <div class="auth-form__form">
+              <div class="auth-form__group">
+                <input type="text" class="auth-form__input" name="fname" id="fname" placeholder="Email hoặc số điện thoại">
+              </div>
+  
+              <div class="auth-form__group">
+                <input type="password" class="auth-form__input" name="fname" id="fname" placeholder="Nhập mật khẩu">
+              </div>
+
+              <div class="auth-form__group">
+                <input type="password" class="auth-form__input" name="fname" id="fname" placeholder="Nhập lại mật khẩu">
+              </div>
+            </div>
+
+            <div class="auth-form__aside">
+              <p class="auth-form__policy-text">Khi bạn nhấn Tạo tài khoản, bạn đã đồng ý thực hiện mọi giao dịch theo điều kiện sử dụng và chính sách của Divine Shop.
+              <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+              <a href="" class="auth-form__text-link">Chính sách bảo mật</a></p>
+            </div>
+
+            <div class="auth-form__contols">
+              <button class="btn-form__back">TRỞ LẠI</button>
+              <button class="btn-form__signup">ĐĂNG KÝ</button>
+            </div>
+          </div>
+
+          <div class="auth-form__social">
+            <a href="" class="btn-facebook">
+              <i class="auth-form-icon fab fa-facebook-square"></i>
+              Kết nối với Facebook
+            </a>
+
+            <a href="" class="btn-google">
+              <i class="auth-form-icon fab fa-google-plus-g"></i>
+              Kết nối với Google
+            </a>
+          </div>
+
+        </div> -->
+
+
+         <!--Đăng nhập Form -->
+         <!-- <div class="auth-form">
+          <div class="auth-form__comtainer">
+            <div class="auth-form__header">
+              <h4 class="auth-form__heading">Đăng nhập</h4>
+              <span class="auth-form__swith-btn">Đăng ký</span>
+            </div>
+
+            <div class="auth-form__form">
+              <div class="auth-form__group">
+                <input type="text" class="auth-form__input" name="fname" id="fname" placeholder="Email hoặc số điện thoại">
+              </div>
+  
+              <div class="auth-form__group">
+                <input type="password" class="auth-form__input" name="fname" id="fname" placeholder="Nhập mật khẩu">
+              </div>
+
+            </div>
+
+            <div class="auth-form__aside">
+              <div class="auth-form__help">
+                <a href="" class="auth-form__help-link">Quên mật khẩu?</a>
+                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+              </div>
+            </div>
+
+            <div class="auth-form__contols">
+              <button class="btn-form__back">TRỞ LẠI</button>
+              <button class="btn-form__signup">ĐĂNG NHẬP</button>
+            </div>
+          </div>
+
+          <div class="auth-form__social">
+            <a href="" class="btn-facebook">
+              <i class="auth-form-icon fab fa-facebook-square"></i>
+              Kết nối với Facebook
+            </a>
+
+            <a href="" class="btn-google">
+              <i class="auth-form-icon fab fa-google-plus-g"></i>
+              Kết nối với Google
+            </a>
+          </div>
+
+        </div> -->
+     
+      <!-- </div>
+    </div> -->
+    <script>
+      var index =1;
+      changeIMG = function(){
+        var imgs = [
+        "https://divineshop.vn/image/catalog/Anh/Banner/ung%20dung%20giai%20tri.png",
+        "https://divineshop.vn/image/catalog/Banner/Netflix%20Share.png",
+        "https://divineshop.vn/image/catalog/Banner/VNPAY%2050k-58494.jpg",
+       "https://divineshop.vn/image/catalog/Anh/Banner%2014%20thang%2011/banner%20big%201%20ph%C3%BAt.png",
+       "https://divineshop.vn/image/catalog/Banner/Kho%20game%20ti%E1%BB%81n%20tri%E1%BB%87u%20ch%E1%BB%89%20v%E1%BB%9Bi%2040K-56475.png"
+        ];
+    document.getElementById('slider').src=imgs[index];
+    index++;
+    if(index==5)
+    {
+      index=0;
+    }
+      }
+      setInterval(changeIMG, 3000);
+    </script>
+  </body>
+</html>

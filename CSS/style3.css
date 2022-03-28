@@ -1,0 +1,275 @@
+body{
+    position: relative;
+}
+
+/* Header */
+.header{
+    background-color: rgb(33, 146, 221);
+    height: 80px;
+    display: flex;
+}
+.div_head{
+    min-width: 980px;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 100px;
+}
+.form-inline{
+    margin: 10px;
+}
+.input{
+    width: 350px;
+    height: 35px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: none;
+}
+.btn{
+    height: 35px;
+    width: 50px;
+    background: blue;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
+.signup {
+   display: inline-block;
+   margin-left: 30px;
+}
+.signup a{
+    display: block;
+	font-size: 17px;
+	color: white;
+    text-decoration: none;
+}
+.signup a i{
+    margin-right: 6px;
+}
+.cart{
+    display: inline-block;
+    margin-left: 30px;
+   
+}
+.cart a {
+    border: 2px solid;
+    padding: 10px;
+    color: white;
+}
+
+/* tbody */
+.tbody{
+    margin-top: 20px;
+}
+.div_body_head{
+    max-width: 980px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+.danhMuc{
+    
+    box-sizing: border-box;
+	display: inline-block;
+    
+   
+}
+.danhMuc a{
+    min-width: 172px;
+    min-height: 33px;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+	font-size: 17px;
+	color: white;
+    font-size: 15px;
+    text-align: center;
+    background: rgb(24, 103, 207);
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    line-height: 33px;
+}
+.danhMuc_2 {
+    box-sizing: border-box;
+	display: inline-block;
+    margin-left: 5px;
+
+}
+.danhMuc_2  a{
+    min-width: 164px;
+    min-height: 33px;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+	font-size: 17px;
+	color: black;
+    font-size: 15px;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 33px;
+}
+.tieude{
+    margin-top: 20px;
+    margin-left: 18%;
+}
+.mua .hang{
+    margin-top: 30px;
+}
+.mua .hang tr th .imgmain{
+    width: 476px;
+    height: 222px;
+}
+.mua .hang tr .tab{
+    width: 250px;
+}
+.mua .hang tr .tab2{
+    width: 355px;
+}
+.mua .hang tr th{
+    padding-left: 30px;
+}
+#gach1{
+    margin-right: 18%;
+}
+
+span img {
+    width: 90px;
+   cursor: pointer;
+  
+}
+.img{
+    margin-left: 280px;
+    margin-top: 5px;
+}
+.option{
+    float: right;
+    border: none;
+    margin-right: 20%;
+    margin-top: -49px;
+}
+.option #tab2 tr  td button
+{
+border: none;
+padding: 10px;
+font-weight: bold;
+}
+.boder {
+   border-width: 1px; border-style: solid; background-color: #D3D3D3;
+   width: 70%;
+   margin-left: 15%;
+   font-weight: bold;
+}
+#gach2{
+    margin-top: 150px;
+}
+.img{
+    width: 476px;
+    box-sizing: border-box;
+}
+.imgAg{
+    padding-left: 25%;
+}
+.mua .hang tr th .imgmain{
+    width: 477px;
+    height: 221px;
+}
+.img1{
+    padding-left: 30%;
+}
+.chitiet img{
+    display: block; margin-left: auto; margin-right: auto;
+}
+#div-ct table tr th img{
+    display: block; margin-left: auto; margin-right: auto;
+}
+.footer{
+    background-color: #24262b;
+    justify-content: space-evenly;
+}
+.container__footer{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-col{
+    padding: 0 15px;
+    width: 25%;
+}
+.footer-col ul{
+    list-style: none;
+    padding: 30px 0;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.social__link a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.social__link a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+@keyframes fadeIn {
+    form {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes growth {
+    form{
+        transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+    }
+}
+.button{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.image{
+    position: relative;
+}

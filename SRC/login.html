@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="../CSS/style2.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../ICON/fontawesome-free-5.15.4-web/css/all.min.css">
+    <script src="../JS/main.js"></script>
+</head>
+<body>
+    
+    <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+
+            <!--Đăng nhập Form -->
+            <form action="../index.html">
+                <div class="auth-form">
+                    <div class="auth-form__comtainer">
+                        <div class="auth-form__header">
+                            <h4 class="auth-form__heading">Đăng nhập</h4>
+                            <a class="auth-form__swith-btn" href="./register.html">Đăng ký</a>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" name="fname" id="fname" placeholder="Nhập tên đăng nhập">
+                            </div>
+            
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" name="password" id="password" placeholder="Nhập mật khẩu">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link">Quên mật khẩu?</a>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__contols">
+                            <button class="btn-form__back" onclick="location.href='/index.html'">TRỞ LẠI</button>
+                            <input type="submit" onclick="sendLogin()" class="btn-form__signup" value="ĐĂNG NHẬP"></input>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__social">
+                        <a href="" class="btn-facebook">
+                        <i class="auth-form-icon fab fa-facebook-square"></i>
+                        Kết nối với Facebook
+                        </a>
+
+                        <a href="" class="btn-google">
+                        <i class="auth-form-icon fab fa-google-plus-g"></i>
+                        Kết nối với Google
+                        </a>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+  
+</body>
+</html>
